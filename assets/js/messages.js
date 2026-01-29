@@ -32,6 +32,10 @@ const messages = [
     {
         text: "Amiga, mesmo aqui na correria, parei um segundo porque meu coração pediu para te mandar esse recado. Quero que você saiba, com todas as letras, o quanto eu te amo e o quanto você é especial para mim! ❤️\n\nEu desejo, do fundo da alma, que você consiga realizar absolutamente tudo o que deseja. Que cada sonho seu se torne realidade, porque você merece o mundo. Que você vá tranquila, sempre acompanhada de Deus, e que Ele ilumine cada passo seu.\n\nQue todos os caminhos se abram à sua frente e que a jornada seja leve e abençoada. Já estou com o coração apertado de saudade, mas torcendo demais pela sua felicidade. Fica com Deus!",
         author: "Maene"
+    },
+    {
+        text: "Bom, cá estamos nós, né?\n\nNão sei se você vai estar lendo essas mensagens na hora que tiver lido o QR Code, ou se vai estar lendo depois de um tempo, mas espero que esteja lendo cada pedacinho das mensagens... são tão especiais quanto você é para mim, e posso dizer o mesmo para os outros.\n\nVocê é guerreira, lutou forte desde o início, não desista dos seus sonhos, ok? Me promete seguir em frente, mesmo que pareça impossível? Tudo é possível quando você é colocada na jogada, você quebra barreiras, rompe desafios, lute, ganhe!\n\nQuero desejar não apenas um belo futuro pela frente, mas uma vida de glória, que seja compensadora pelo tanto que lutou, e luta nos dias de hoje.\n\nNn sou bom com textinhos, então, tome de noção várias e várias linhas de código usadas por aqui, cada uma pensada em funcionar perfeitamente nesse site. Ah, e ele não expira, eternizado e quantizado. O QR Code é apenas um atalho para isso, mas você sempre estará nos nossos corações, ta bom?\n\nNão tenha medo de que nossos caminhos se descruzem, eu fiz uma promessa a você, lembra? Não vamos perder contato, posso garantir isso.\n\nCom carinho, sua Peste Bubônica/Pamonha (imensa).",
+        author: "Antônio"
     }
 ];
 
