@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembranças</title>
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="stylesheet" href="../css/back-button.css">
+    <link rel="stylesheet" href="../css/memories.css">
+</head>
+<body>
+    <button class="back-button" id="backButton" title="Voltar">
+        <img src="../media/fx/arrow-left.svg" alt="">
+        <span>←</span>
+    </button>
+    
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Fullscreen Viewer -->
+    <div class="fullscreen-viewer" id="fullscreenViewer">
+        <button class="fullscreen-close" id="fullscreenClose">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="fullscreen-content" id="fullscreenContent">
+            <!-- Media will be inserted here -->
+        </div>
+        <div class="fullscreen-nav">
+            <button class="fullscreen-arrow fullscreen-prev" id="fullscreenPrev">
+                <img src="../media/fx/chevron-left.svg" alt="">
+            </button>
+            <button class="fullscreen-arrow fullscreen-next" id="fullscreenNext">
+                <img src="../media/fx/chevron-right.svg" alt="">
+            </button>
+        </div>
+        <div class="fullscreen-counter" id="fullscreenCounter">1 / 1</div>
+    </div>
+    
+    <div class="memories-container">
+        <h1 class="page-title">Nossas Memórias</h1>
+        
+        <div class="gallery-stack" id="galleryStack">
+            <!-- Images and videos will be dynamically loaded here -->
+            <button class="nav-arrow prev-arrow" id="prevArrow" disabled>
+                <img src="../media/fx/chevron-left.svg" alt="">
+                <span>‹</span>
+            </button>
+            <button class="nav-arrow next-arrow" id="nextArrow">
+                <img src="../media/fx/chevron-right.svg" alt="">
+                <span>›</span>
+            </button>
+            <div class="counter" id="counter">1 / 1</div>
+        </div>
+        
+        <div class="bottom-section">
+            <h2 class="section-header">Quantas lembranças, né?</h2>
+            <button class="next-button" id="nextButton">Pronta?</button>
+        </div>
+    </div>
+
+    <script src="../js/scrollbar.js"></script>
+    <script src="../js/memories.js"></script>
+</body>
+</html>

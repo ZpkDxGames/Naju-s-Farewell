@@ -1,0 +1,66 @@
+/* Custom Scrollbar Styles - Overlay Mode */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 23, 68, 0.5) transparent;
+}
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, 
+        rgba(255, 23, 68, 0.5) 0%,
+        rgba(213, 0, 0, 0.4) 100%);
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 
+        0 0 8px rgba(255, 23, 68, 0.3),
+        inset 0 0 4px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, 
+        rgba(255, 23, 68, 0.7) 0%,
+        rgba(213, 0, 0, 0.6) 100%);
+    box-shadow: 
+        0 0 15px rgba(255, 23, 68, 0.5),
+        inset 0 0 6px rgba(255, 255, 255, 0.15);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(180deg, 
+        rgba(255, 23, 68, 0.9) 0%,
+        rgba(213, 0, 0, 0.8) 100%);
+}
+
+/* Overlay scrollbars - don't take up space */
+html {
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: overlay;
+    scrollbar-gutter: stable both-edges;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Corner styling when both scrollbars appear */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
