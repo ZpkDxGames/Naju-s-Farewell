@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Despedida Especial</title>
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/splash.css">
+</head>
+<body>
+    <div class="splash-container">
+        <!-- Loading Section -->
+        <div class="loading-section" id="loadingSection">
+            <h1 class="loading-text">Carregando...</h1>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <span class="progress-percentage" id="progressPercentage">0%</span>
+            </div>
+        </div>
+
+        <!-- Success Section -->
+        <div class="success-section hidden" id="successSection">
+            <h1 class="success-emoji">:D</h1>
+            <button class="start-button hidden" id="startButton">Começar</button>
+        </div>
+
+        <!-- Confetti Container -->
+        <div class="confetti-container" id="confettiContainer"></div>
+    </div>
+
+    <script src="assets/js/splash.js"></script>
+</body>
+</html>
